@@ -1,0 +1,42 @@
+:root {
+    /****************
+     * COLORS
+     ****************/
+
+    /* Primary colors */
+    --primary-color-lime: hsl(61, 70%, 52%);
+    --primary-color-red: hsl(4, 69%, 50%);
+
+    /* Secondary colors */
+    --neutral-color-white: hsl(0, 0%, 100%);
+    --neutral-color-slate-100: hsl(202, 86%, 94%);
+    --neutral-color-slate-300: hsl(203, 41%, 72%);
+    --neutral-color-slate-500: hsl(200, 26%, 54%);
+    --neutral-color-slate-700: hsl(200, 24%, 40%);
+    --neutral-color-slate-900: hsl(202, 55%, 16%);
+
+    /****************
+     * FONTS
+     ****************/
+
+    /* Font sizes */
+    --font-size: 1rem;
+
+    /* Font families */
+    --font-family: 'Plus Jakarta Sans', sans-serif;
+    --font-family-italic: 'Plus Jakarta Sans Italic', sans-serif;
+
+    /* Font weights */
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+
+    /****************
+     * SPACINGS
+     ****************/
+    
+    /* Fullscreen height */
+    --full-height: 100vh;
+
+    /* Fullscreen width */
+    --full-width: 100vw;
+}

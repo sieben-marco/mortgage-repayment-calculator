@@ -1,0 +1,15 @@
+/* Regular Font */
+@font-face {
+    font-family: var(--font-family);
+    src: url('../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: var(--font-weight-regular);
+    font-style: normal;
+}
+
+/* Italic Font */
+@font-face {
+    font-family: var(--font-family-italic);
+    src: url('../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: var(--font-weight-regular);
+    font-style: italic;
+}
