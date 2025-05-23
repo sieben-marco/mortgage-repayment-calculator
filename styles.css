@@ -1,3 +1,29 @@
 @import url('./styles/_variables.css');
 @import url('./styles/_fonts.css');
 @import url('./styles/_normalize.css');
+
+body {
+    padding: 1.25rem 1rem;
+}
+
+header, main, aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--neutral-color-slate-900);
+}
+
+small {
+    font-size: 0.75rem;
+    color: var(--neutral-color-slate-500);
+    text-decoration: underline;
+}
